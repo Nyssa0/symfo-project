@@ -1,0 +1,25 @@
+{% extends 'admin/base.html.twig' %}
+
+{% block title %}Hello AdminController!{% endblock %}
+
+{% block body %}
+
+    <main class="page-content">
+        <div class="container-fluid">
+            <h1>{{ formTitle }}</h1>
+            <hr>
+            {{ form_start(form) }}
+                {{ form_row(form.Name) }}
+                {{ form_row(form.Intro) }}
+                {{ form_row(form.Article) }}
+{#
+                {{ form_row(form.Category) }}
+#}
+{#
+                {{ form_row(form.Author) }}
+#}
+                <button type="submit" class="btn btn-primary">{{ formButton }}</button>
+            {{ form_end(form) }}
+        </div>
+    </main>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Post{% endblock %}
+
+{% block body %}
+
+    <h1>{{ post.name }}</h1>
+{#
+    <p>{{ post.category }}</p>
+#}
+{#
+    <p>posted on {{ post.date | date }} by {{ post.author }}</p>
+#}
+
+    <h2>{{ post.intro }}</h2>
+
+    <p>{{ post.article }}</p>
+
+    <a href="{{ path('app_app_index') }}">back to list</a>
+
+{% endblock %}
