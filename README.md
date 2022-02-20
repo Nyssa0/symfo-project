@@ -19,7 +19,7 @@
 This project is my first Symfony project. I made a blog using multiple features. First of all, let's talk about the home page (app/index.html.twig). I used a separate twig file (nav.html.twig) to create a nav bar and include it in the pages. Then, you can see the header containing an introduction. Under all of that you have previews of the posts. By clicking on the links, you can see the posts entirely (app/post.html.twig - post/showPost/{id}). The posts were made using fixtures (AppFixtures). Furthermore, you can click on the "sign in" button or use the link https://127.0.0.1:8000/admin to log in as an admin. The email is "test@test.fr" and the password is "test". Thanks to the sidebar you will be able to navigate and see different elements. The home button takes you to the home page. The posts button allows you to see, edit, delete, and add posts. You will also be able to do the same with authors, categories and comments. I also started to implement comments to be able to have a comment section for each post. 
 
 <br />
-I had a lot of issues when i tried to commit my project so just in case I created a new repo that you can find on thins link : https://github.com/Nyssa0/symfo-project . I also created a Drive folder : https://drive.google.com/drive/folders/1fNwhbkKSy6VVua5dHR1L3a3lhkfHnGn8?usp=sharing . Don't hesitate to contact me if there is any issue. 
+I had a lot of issues when I tried to commit my project so just in case I created a new repo that you can find on this link : https://github.com/Nyssa0/symfo-project . I also created a Drive folder : https://drive.google.com/drive/folders/1fNwhbkKSy6VVua5dHR1L3a3lhkfHnGn8?usp=sharing . Don't hesitate to contact me if there is any issue. 
 
 <br />
 
